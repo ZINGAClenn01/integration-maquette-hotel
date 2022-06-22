@@ -187,7 +187,10 @@ span{
 .btn2{
     margin-top: 30px;
     width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
 }
+
 .btn1:hover{
     background-color: black;
     color: white;
@@ -251,6 +254,8 @@ a button{
 
 /*style quatrieme section*/
 
+
+
 .image-lumière{
     background: url(../images/c4b0bae8-5add-497a-97ab-ae59e4da73f2.png);
     background-size: cover;
@@ -271,7 +276,7 @@ a button{
     background: url(../images/00f3f2c7-10ea-4854-a3da-3c2d78efbcfb.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 28%;
+    width: 28.5%;
     height: 70vh;
     margin-right: 20px;
 }
@@ -279,38 +284,29 @@ a button{
 /*style cinquieme section*/
 
 .image-hommesourir{
-    background: url(../images/cd91fcfc-2208-4231-abb4-cbe9e6a7cf23.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 60vh;
-    transform: translate(0px, 150px);
+    position: absolute;
+    top: 200px;
+    left: 550px;
 }
 
 
 .image-hommepardesus{
-    background: url(../images/65b723c5-8daf-4dba-ab7c-37cd4bc1c42c.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 40%;
-    height: 40vh;
-    transform: translate(0px, 100px);
+    position: absolute;
+    top: 120px;
+    right: 250px;
 }
 
 .image-femmesourir{
-    background: url(../images/a8ab44dd-7c9b-428c-aa80-d10abe42e6aa.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 35%;
-    height: 25vh;
-    transform: translate(0px, 50px);
+    position: absolute;
+    top: 50px;
+    right: 50px;
 }
 .home{
     width: 50%;
     height: 30vh
 }
 .gros-noir{
-    height: 80vh;
+    height: 70vh;
     width: 55%;
     background-color: black;
 }
@@ -324,9 +320,10 @@ a button{
 }
 .icones2{
     background-color: black;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
+    margin-right: 2px;
 }
 
 .carré-blanc{
@@ -347,6 +344,17 @@ a button{
     justify-content: space-around;
     font: bold;
     font-size: 25px;
+}
+
+.icone-bot2{
+    color: #636363;
+    display: flex;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.mere-icone{
+    display: flex;
 }
 
 .liste-orange li{
@@ -370,12 +378,13 @@ a button{
     height: 95%;
     text-align: center;
     outline: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .formu input::placeholder{
     color: black;
 }
+
 
 a button:hover{
     background-color: black;
@@ -389,4 +398,15 @@ a button{
     color: black;
     width: 29%;
     padding: 15px 20px 15px 20px;
+}
+.gradient{
+    width: 150px;
+    position: absolute;
+    height: 110px;
+    transform: rotate(-30deg);
+    border-radius: 50px;
+    opacity: .45;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient(circle, rgb(90, 255, 255) 0%, rgba(0,194,255,1) 80%, rgba(255,2,169,0.9547991071428571) 100%);
 }

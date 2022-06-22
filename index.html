@@ -43,8 +43,8 @@
                     Complexe<br>
                     luxueux<br>
                 </h2>
-                <li class="liste" id="li">
-                    <a style="width: 20%;" id="li" class="btn-register liens" href="">Découvrir</a>
+                <li style="width: 10%; position: absolute; bottom: 20px;" class="liste liens">
+                    <a class="btn-register liens" href="">Découvrir</a>
                 </li>
             </div>
             <div class="image-piscine row justify-content flex-direction">
@@ -52,27 +52,27 @@
                 <div class="formulaire row">
                     <div class="form row justify-content2">
                         <div class="centre">
-                            <img src="./images/icone/Image_2022-06-15_at_14.29.02-removebg-preview.png" alt="" height="40px" style="margin-right: -40px;">
+                            <img src="./images/icone/Image_2022-06-15_at_14.29.02-removebg-preview.png" alt="" height="40px" style="margin-right: -10px;">
                         </div>
-                        <div class="row flex-direction justify-content2" style="font-family: 'Roboto Condensed', sans-serif;margin-right: 50px; height: 10vh; margin-top: 35px;">
+                        <div class="row flex-direction justify-content2" style="font-family: 'Roboto Condensed', sans-serif;margin-right: -5px; height: 10vh; margin-top: 35px;">
                             <span style="margin-top: 10px; font-weight: bold; font-size: 20px;">Entré</span>
-                            <span>Date</span>  
+                            <input type="date" placeholder="Date" style="width: 100px;">  
                         </div>
                         <hr>
                         <div class="centre">
-                            <img src="./images/icone/Image_2022-06-15_at_14.29.02-removebg-preview.png" alt="" height="40px" style="margin-right: -40px;">
+                            <img src="./images/icone/Image_2022-06-15_at_14.29.02-removebg-preview.png" alt="" height="40px" style="margin-right: -15px;">
                         </div>
-                        <div class="row flex-direction justify-content2" style="font-family: 'Roboto Condensed', sans-serif;margin-right: 50px; height: 10vh; margin-top: 35px;">
+                        <div class="row flex-direction justify-content2" style="font-family: 'Roboto Condensed', sans-serif;margin-right: 20px; height: 10vh; margin-top: 35px;">
                             <span style="margin-top: 10px; font-weight: bold;font-size: 20px;">Sortie</span>
-                            <span>Date</span>
+                            <input type="date" placeholder="Date" style="width: 100px;">  
                         </div>
                         <hr>
                         <div class="centre">
-                            <img src="./images/icone/Image_2022-06-15_at_14.45.07-removebg-preview.png" alt="" height="40px" style="margin-right: -40px;">
+                            <img src="./images/icone/Image_2022-06-15_at_14.45.07-removebg-preview.png" alt="" height="40px" style="margin-right: -15px;">
                         </div>
                         <div class="row flex-direction justify-content2" style="font-family: 'Roboto Condensed', sans-serif;margin-right: 50px; height: 10vh; margin-top: 35px;">
                             <span style="margin-top: 10px; font-weight: bold;font-size: 20px;">Nombres</span>
-                            <span>Date</span>
+                            <input type="number" placeholder="Ajouter" style="width: 100px;">  
                         </div>
                     </div>
                 </div>
@@ -86,15 +86,12 @@
     <section style="height: 150vh; width: 100%; background-color: #FBF7F4;" class="row align-items flex-direction justify-content2">
         <div style="width: 100%;" class="row justify-content2" style="position: relative;">
             <div class="image-lit row justify-content flex-direction">
-                <div></div>
-                <div style="display: flex; flex-direction: column;">
-                    <div style="background-color: #E79434; height: 20vh; width: 1%; "></div>
-                    <div style="background-color: white;height: 20vh; width:20%;"></div>
-                </div>
+                
             </div>
             <div class="h3 row flex-direction justify-content2" style="width: 50%;">
                 <h3 style="font-weight: bold; font-size: 66px; width: 100%;">
-                    Nos meilleurs chambres</h3>
+                    Nos meilleurs chambres
+                </h3>
                 <p>
                     Habituellement, le plus fort dans la place est le plus fiable. <br>
                     L'homme le plus silencieux de la pièce.
@@ -118,14 +115,29 @@
             </div>
         </div>
         <div class="row justify-content2" style="width: 100%;">
-            <div class="image-coloir"></div>
+            <div class="image-coloir row justify-content flex-direction">
+                <div></div>
+                <div style="display: flex;">
+                    <div style="background-color: #E79434; height: 20vh; width: 1%; "></div>
+                    <div style="background-color: white;height: 20vh; width:29%; opacity: 0.8;">
+                        <div class="row justify-content2 flex-direction" style="height: 18vh; margin-left: 10px;">
+                            <div>
+                                <span style="font-size: 30px; font-weight: bold;">15%</span>
+                                <span style="font-size: 12px; font-weight: bold;">DISCOUNT</span>
+                            </div>
+                            <span style="font-size: 12px; font-weight: bold; text-transform: uppercase;">Séjour 2 nuit <br> ou plus</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div style="height: 80vh; margin-top: -120px;" class="image-suite"></div>
         </div>
     </section>
 
     <!-- troixième -->
 
-    <section style="height: 120vh; margin-top: 20px;" class="row flex-direction justify-content2">
+    <section style="height: 150vh; margin-top: 20px; position: relative;" class="row flex-direction justify-content2">
+        <div style="left: 10px; top: 20px;" class="gradient"></div>
         <div class="row flex-direction align-items">
             <h3 class="titre" style="text-align: center;">
                 Nos services
@@ -136,27 +148,27 @@
                 temps à autre
             </p>
         </div>
-        <div class="row" style="width: 100%; height: 16vh;margin-left: 40px; ">
-            <div class="carré-black centre flex-direction" style="margin-right: 10px;">
-                <img src="./images/icone/beee8fbc-105d-4feb-a1dc-11bf9966c255-removebg-preview.png" alt="" height="50px">
+        <div class="row" style="width: 97%; height: 16vh;margin-left: 40px; ">
+            <div class="carré-black centre flex-direction" style="margin-right: 20px;">
+                <img src="./images/icones/restaurant (1).png" alt="" height="50px">
                 <span style="color: #E79434;font-family: 'Roboto Condensed', sans-serif;">Restaurant</span>
             </div>
-            <div class="carré-white centre flex-direction" style="margin-right: 10px;">
-                <img src="./images/icone/Lit repos (2).png" alt="" height="50px">
+            <div class="carré-white centre flex-direction" style="margin-right: 20px;">
+                <img src="./images/icones/bed (1).png" alt="" height="50px">
                 <span style="font-family: 'Roboto Condensed', sans-serif;">salle de conference</span>
             </div>
-            <div class="carré-white centre flex-direction" style="margin-right: 10px;">
-                <img src="./images/icone/Lit repos (2).png" alt="" height="50px">
+            <div class="carré-white centre flex-direction" style="margin-right: 20px;">
+                <img src="./images/icones/conference (1).png" alt="" height="50px">
                 <span style="font-family: 'Roboto Condensed', sans-serif;">salle de conference</span>
             </div>
-            <div class="carré-white centre flex-direction" style="margin-right: 10px;">
-                <img src="./images/icone/Piscine.png" alt="" height="50px">
+            <div class="carré-white centre flex-direction" style="margin-right: 20px;">
+                <img src="./images/icones/swimming-pool.png" alt="" height="50px">
                 <span style="font-family: 'Roboto Condensed', sans-serif;">Piscine</span>
             </div>
         </div>
         <div style="margin-left: 35px; margin-bottom: -50px;" class="row align-items justify-content2">
-            <div class="image-table"></div>
-            <div class="row flex-direction justify-content2" style="height: 50vh;width: 40%; margin-bottom: -10px; margin-right: 10px;">
+            <div class="image-table" style="margin-left: 5px;"></div>
+            <div class="row flex-direction justify-content2" style="height: 50vh;width: 40%; margin-bottom: -10px; margin-right: 50px;">
                 <div class="row flex-direction justify-content2" style="height: 15vh;">
                     <div>
                         <h3 style="font-size: 35px;">Restaurant</h3>
@@ -207,14 +219,17 @@
                 <div>
                     <div class="btn2"><a href=""><button>Voir les offres</button></a></div>
                 </div>
+                <div style="right: 20px; bottom: -90px;" class="gradient"></div>    
             </div>
         </div>
+        
     </section>
 
 
     <!-- quatrieme section -->
 
-    <section style="height: 150vh; width: 100%; margin-top: 50px;" class="row flex-direction justify-content2">
+    <section style="height: 160vh; width: 100%; margin-top: 50px; position: relative;" class="row flex-direction justify-content2">
+        <div style="left: 5px; top: -10px;" class="gradient"></div>
         <div class="row flex-direction align-items">
             <h3 class="titre" style="text-align: center;">
                 Découvrez notre galerie d'hotel
@@ -223,19 +238,19 @@
         </div>
         <div class="row justify-content2" style="height: 15vh; width: 80%;margin: 0px auto; margin-top: 30px;">
             <div class="carré-white2 centre flex-direction">
-                <span>Classique</span>
+                <span style="font-family: 'Roboto Condensed', sans-serif;">Classique</span>
             </div>
             <div class="carré-white2 centre flex-direction">
-                <span>Classique jum...</span>
+                <span style="font-family: 'Roboto Condensed', sans-serif;">Classique jum...</span>
             </div>
             <div class="carré-white2 centre flex-direction" style="background-color: black;">
-                <span style="color:white;">Universel</span>
+                <span style="color:white;font-family: 'Roboto Condensed', sans-serif;">Universel</span>
             </div>
             <div class="carré-white2 centre flex-direction">
-                <span>Superieur</span>
+                <span style="font-family: 'Roboto Condensed', sans-serif;">Superieur</span>
             </div>
             <div class="carré-white2 centre flex-direction">
-                <span>Suite</span>
+                <span style="font-family: 'Roboto Condensed', sans-serif;">Suite</span>
             </div>
         </div>
         <div class="row justify-content2" style="transform: translate(0px, 10px);">
@@ -243,47 +258,47 @@
             <div class="image-tablette"></div>
             <div class="image-reception"></div>
         </div>
-        <div class="row justify-content2">
+        <div class="row justify-content2"style="margin-left: -5px;">
             <div class="row flex-direction">
-                <div style="margin-top: 30px;">
-                    <p>Chambre confortable décorée dans des <br>
+                <div style="margin-top: 20px;">
+                    <p style="color: #636363;">Chambre confortable décorée dans des <br>
                         tons pastel. Equipé de chambres <br>
                         standards. Chaque chambre est <br>
                         climatisée
                     </p>
 
-                    <div style="margin-top: 30px;">
-                        <li style="width: 10%;" class="liste">
-                            <a id="tout" class=" btn-register liens" href="">Reservez</a>
-                        </li>
+                    <div style="margin-top: 30px; width: 130%;">
+                        <div>
+                            <div class="btn2"><a href=""><button style="font-weight: bold;">Reserver</button></a></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row flex-direction">
-                <div style="margin-top: 30px;">
-                    <p>Chambre confortable décorée dans des <br>
+            <div class="row flex-direction"style="margin-left: -35px;">
+                <div style="margin-top: 20px;">
+                    <p  style="color: #636363;">Chambre confortable décorée dans des <br>
                         tons pastel. Equipé de chambres <br>
                         standards. Chaque chambre est <br>
                         climatisée
                     </p>
-                    <div style="margin-top: 20px;">
-                        <li style="width: 10%;" class="liste">
-                            <a id="tout" class=" btn-register liens" href="">Reservez</a>
-                        </li>
+                    <div style="margin-top: 30px;width: 130%;">
+                        <div>
+                            <div class="btn2"><a href=""><button style="font-weight: bold;">Reserver</button></a></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row flex-direction">
+            <div class="row flex-direction" style="margin-left: -35px;">
                 <div style="margin-top: 20px; margin-right: 30px;">
-                    <p>Chambre confortable décorée dans des <br>
+                    <p  style="color: #636363;">Chambre confortable décorée dans des <br>
                         tons pastel. Equipé de chambres <br>
                         standards. Chaque chambre est <br>
                         climatisée
                     </p>
-                    <div style="margin-top: 20px;">
-                        <li style="width: 10%;" class="liste">
-                            <a id="tout" class=" btn-register liens" href="">Reservez</a>
-                        </li>
+                    <div style="margin-top: 30px;">
+                        <div>
+                            <div style="position: absolute;width: 32%;font-family: 'Roboto Condensed', sans-serif;"><a href=""><button style="font-family: 'Roboto Condensed', sans-serif; font-weight: bold;">Reserver</button></a></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -292,45 +307,82 @@
 
     <!-- cinquième section  -->
 
-    <section style="height: 150vh; width: 100%; margin-top: 100px; background-color: #F6F5F1;">
-        <div class="row">
-            <div style="margin-left: 50px;">
+    <section style="height: 200vh; width: 100%; margin-top: 150px; background-color: #F6F5F1; position: relative;">
+
+        <div class="row justify-content" style=" width: 100%;">
+            <div style="width: 50%; margin-top: 40px; margin-left: 50px;">
                 <h3 class="titre">
                     Que disent les clients ?
                 </h3>
-                <p>
+                <p style="color: #636363; margin-top: 100px;">
                     “Le service client est excellent, pret à répondre à <br>
                     nos demandes. La qualité est très bonne et c’est <br>
                     très très impotant. Ils essaient de satisfaire toutes <br>
                     les demandes des clients. Excellente <br>
                     communication.
                 </p>
-                <div class="row flex-direction" style="margin-top: 30px;">
-                    <span style="font-size: 35px;">Alex Smith</span>
-                    <span style="font-size: 20px;">Photgrapher</span>
+                <div class="row justify-content"style="width:100%">
+                    <div class="row flex-direction" style="margin-top: 10px;">
+                        <span style="font-size: 35px;">Alex Smith</span>
+                        <span style="font-size: 20px;">Photgrapher</span>
+                    </div>
+                    <div>
+                        <div class="row" style="width:50%;margin-right: 200px;margin-top: 40px;">
+                            <img src="./images/icone/WhatsApp Image 2022-06-15 at 15.06.21.jpeg" alt="" height="20px" style="margin-right: 4px;"> 
+                            <img src="./images/icone/WhatsApp Image 2022-06-15 at 15.06.21.jpeg" alt="" height="20px" style="margin-right: 4px;">
+                            <img src="./images/icone/WhatsApp Image 2022-06-15 at 15.06.21.jpeg" alt="" height="20px" style="margin-right: 4px;">
+                            <img src="./images/icone/WhatsApp Image 2022-06-15 at 15.06.21.jpeg" alt="" height="20px" style="margin-right: 4px;">
+                            <img src="./images/icone/WhatsApp Image 2022-06-15 at 15.06.21.jpeg" alt="" height="20px" style="margin-right: 4px;">
+                        </div>
+                        <div class="" style="display: flex; margin-top: 40px;">
+                            <div class="centre" style="height: 31px;width:46px;margin-right: 1px; border: #636363 solid 2px; transform: rotate(-180deg);">
+                                <img src="./images/icones/next (2).png" alt="" height="30px">
+                            </div>
+                            <div class="centre" style="height: 35px;width:50px; background-color:black;margin-left: 1px;">
+                                <img src="./images/icones/next.png" alt="" height="20px">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="home row justify-content2" style="margin-right: 30px;">
-                <div style="margin-left: 20px;" class="image-hommesourir"></div>
-                <div style="margin-left: 20px;" class="image-hommepardesus"></div>
-                <div style="margin-left: 20px;" class="image-femmesourir"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="gros-noir" style="margin-top: 250px;">
-                <div class="center row justify-content" style="width:30%; transform: translate(70px, 65px);">
-                    <div class="icones2 centre" style="border: solid 2px #F6F5F1;"><img class="center" src="./images/icones/twitter (1).png" alt="" height="40px"></div>
-                    <div class="icones centre" style="border:solid 2px #F6F5F1;"><img src="./images/icone/instagram.png" alt="" height="30px"></div>
-                    <div class="icones centre" style="border:solid 2px #F6F5F1;"><img src="./images/icone/linkedin.png" alt="" height="30px"></div>
-                </div>
-                <div class="icone-bot" style="width:100%; margin-top: 100px; background-color: black">
-                    <span class="icone-bot "> A propos <br> <br> <br> contact <br> <br>  <br> news blog</span>
-                    <span class="icone-bot"> Entreprise <br> <br> <br> Partenaires <br> <br> <br> politique de confidentialité</span>
-                    <span class="icone-bot"> Teams & entreprise <br> <br> <br> Chambres <br> <br> <br>Support </span>
-                </div>
 
+            <div style="width: 50%;" class="row">
+                <div class="row">
+                    <div class="image-hommesourir"><img src="./images/cd91fcfc-2208-4231-abb4-cbe9e6a7cf23.png" alt=""></div>
+                    <div class="image-hommepardesus"><img src="./images/65b723c5-8daf-4dba-ab7c-37cd4bc1c42c.png" alt=""></div>
+                    <div class="image-femmesourir"><img src="./images/a8ab44dd-7c9b-428c-aa80-d10abe42e6aa.png" alt=""></div>
+                </div>
             </div>
-            <div class="champs row flex-direction" style="margin-top: 240px; margin-left: 50px;">
+           
+        </div>
+        <div style="right: 30px; top: 10;" class="gradient"></div>
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="gros-noir" style="margin-top: 160px;">
+                <div class="center row justify-content" style="width:30%;width: 40%; transform: translate(70px, 65px);">
+                    <div class="icones2 centre" style="border: solid 2px #F6F5F1;"><img class="center" src="./images/icones/twitter (1).png" alt="" height="40px"></div>
+                    <div class="icones centre" style="border:solid 2px #F6F5F1; margin: 2px;"><img src="./images/icone/instagram.png" alt="" height="30px"></div>
+                    <div class="icones centre" style="border:solid 2px #F6F5F1; margin: 2px;"><img src="./images/icone/linkedin.png" alt="" height="30px"></div>
+                </div>
+                <div class="icone-bot" style="width:100%; margin-top: 100px; background-color: black; ">
+                    <ul style="list-style: none;margin-top: 30px;">
+                        <li  style="margin-top: 20px;font-family: 'Roboto Condensed', sans-serif;"><strong>A propos</strong></li>
+                        <li class="icone-bot2" style="margin-top: 20px;font-family: 'Roboto Condensed', sans-serif;">Contact</li>
+                        <li class="icone-bot2" style="margin-top: 20px;font-family: 'Roboto Condensed', sans-serif;">News & Blog</li>
+                    </ul>
+                    <ul style="list-style: none;margin-top: 30px;">
+                        <li style="margin-top: 20px;font-family: 'Roboto Condensed', sans-serif;"><strong>Entreprise</strong></li>
+                        <li class="icone-bot2" style="margin-top: 20px;font-family: 'Roboto Condensed', sans-serif;">Partenaires</li>
+                        <li class="icone-bot2" style="margin-top: 20px;font-family: 'Roboto Condensed', sans-serif;">Chambres</li>
+                    </ul>
+                    <ul style="list-style: none;margin-top: 30px;">
+                        <li style="margin-top: 20px;font-family: 'Roboto Condensed', sans-serif;"><strong>Terms & Politique</strong></li>
+                        <li class="icone-bot2" style="margin-top: 20px;font-family: 'Roboto Condensed', sans-serif;">Politique de confidentialité</li>
+                        <li class="icone-bot2" style="margin-top: 20px;font-family: 'Roboto Condensed', sans-serif;">Support</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="champs row flex-direction" style="margin-top: 150px; margin-left: 50px;">
                 <h3 class="titre">
                     S’abonner à
                     Notre bulletin.
@@ -348,10 +400,12 @@
                         </div>
                         <br>
                 
-                        <div class="row justify-content formu">
+                        <div class="row justify-content formu" style="margin-top: 10px;">
                             <div class="carré-blanc"><input type="email" placeholder="Email"></div>
                             
-                            <div class="carré-blanc"></div>
+                            <div class="carré-blanc centre" style="background-color: black; color: white; 
+                            font-size: 20px;font-family: 'Roboto Condensed', sans-serif;text-align: center; ">
+                            <a class="liens" style="color: white;" href="">Abonnez vous maintenant</a> </div>
                         </div>
                     </div>
                 </div>
